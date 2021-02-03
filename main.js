@@ -35,7 +35,7 @@
         let listHref = [];
         var listNDup = [];
         let i;
-        for (i in listCell){listHref.push(i.getAttribute("href"))};
+        for (i in listCell){listHref.push(listCell[i].getAttribute("href"))};
         for (let it; it < listHref.length; it++){
             // same links, topic, avatar, and last poster
             if (it%3==0){
