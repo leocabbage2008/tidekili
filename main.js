@@ -44,6 +44,13 @@
         }
     }
     function friends(){
-        
+        let ni = alert("What users friends would you like to know about?");
+        window.open("https://artofproblemsolving.com/community/"+ni);
+        //scroll to bottom of page
+        //load all of friends
+        //load friend images
+        //load friend statuses
+        //alert go to aops.com/blah blah blah
+        //code to load everything
     }
 })();
