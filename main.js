@@ -32,11 +32,10 @@
 
         let listCell = document.getElementsByClassName("cmty-full-cell-link");
         delete listCell[0]; //This is just links to post count... AGAIN?
-        listCell = toList(listCell);
         let listHref = [];
         var listNDup = [];
         let i;
-        for (i in listCell){listHref.pop(i.getAttribute("href"))};
+        for (i in listCell){listHref.push(i.getAttribute("href"))};
         for (let it; it < listHref.length; it++){
             // same links, topic, avatar, and last poster
             if (it%3==0){
