@@ -27,14 +27,16 @@
         var listNDup = [];
         let i;
         for (let i = 0; i < listCell.length; i++){listHref.push(listCell[i].getAttribute("href"))};
-        for (let it; it < listHref.length; it++){
-            // same links, topic, avatar, and last poster
-            if (it%3==0){
-                listNDup.push("aops.com"+listHref[it]);
+        for (let it = 0; it < listHref.length; it++){
+            temp = listHref[it];
+            listHref[it]="we wuz here";
+            if (!(temp in listHref)){
+                listNDup.push("aops.com/"+temp);
             }
         }
-        
+        console.log(listNDup);
     }
+
     function friends(){
         let ni = prompt("What users friends would you like to know about?");
         window.open("https://artofproblemsolving.com/community/user/"+ni);
