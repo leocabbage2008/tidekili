@@ -10,15 +10,6 @@
 
 (function() {
     'use strict';
-
-    function toList(valin){
-        let res = [];
-        let i;
-        for(i in valin){
-            res.push(i);
-        }
-        return res;
-    }
     function like(){
         let totalScroll = 0;
         let loadInterval = setInterval(function timer() {
@@ -35,7 +26,7 @@
         let listHref = [];
         var listNDup = [];
         let i;
-        for (i in listCell){listHref.push(listCell[i].getAttribute("href"))};
+        for (let i = 0; i < listCell.length; i++){listHref.push(listCell[i].getAttribute("href"))};
         for (let it; it < listHref.length; it++){
             // same links, topic, avatar, and last poster
             if (it%3==0){
