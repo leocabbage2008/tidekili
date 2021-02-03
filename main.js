@@ -38,14 +38,16 @@
         let i;
         for (i in listCell){listHref.pop(i.getAttribute("href"))};
         for (let it; it < listHref.length; it++){
+            // same links, topic, avatar, and last poster
             if (it%3==0){
                 listNDup.push("aops.com"+listHref[it]);
             }
         }
+        
     }
     function friends(){
-        let ni = alert("What users friends would you like to know about?");
-        window.open("https://artofproblemsolving.com/community/"+ni);
+        let ni = prompt("What users friends would you like to know about?");
+        window.open("https://artofproblemsolving.com/community/user/"+ni);
         //scroll to bottom of page
         //load all of friends
         //load friend images
