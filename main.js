@@ -40,10 +40,7 @@
         let ni = prompt("What users friends would you like to know about?");
         window.open("https://artofproblemsolving.com/community/user/"+ni);
         let scroll = setInterval(function timer() {
-        let inner = document.getElementsByClassName("aops-scroll-inner")[0];
-            let tempScroll = inner.scrollTop=inner.scrollHeight;
-            if (!(tempScroll> totalScroll)){
-                clearInterval(loadInterval);
+        // scroll down all the way blah blah blah
         }
         }, 20);
         document.body.addEventListener("click", function f(){clearInterval(scroll)}); // <== stops on click of body
