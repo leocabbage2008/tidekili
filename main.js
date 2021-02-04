@@ -29,7 +29,7 @@
         for (let it = 0; it < listHref.length; it++){
             temp = listHref[it];
             listHref[it]="we wuz here";
-            if (!(temp in listHref)){
+            if (!listHref.includes(temp)){
                 listNDup.push("aops.com/"+temp);
             }
         }
