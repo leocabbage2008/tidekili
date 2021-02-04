@@ -1,2 +1,8 @@
 Asy code and latex at button, classroom
 Draggable topics feed
+Classroom people counter
+Custom enlarger in beta classroom
+Built in geogebra/desmos
+Hover image source
+Classroom preview
+Hover over avatar to see status
