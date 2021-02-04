@@ -8,3 +8,4 @@ Classroom preview
 Hover over avatar to see status
 Dark mode
 [aops] letter finder
+Which posts were upvoted
