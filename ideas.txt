@@ -6,3 +6,5 @@ Built in geogebra/desmos
 Hover image source
 Classroom preview
 Hover over avatar to see status
+Dark mode
+[aops] letter finder
