@@ -35,12 +35,12 @@
         }
         console.log(listNDup);
     }
-        function data(){
-            document.body.addEventListener("click", function f(){clearInterval(scroll)}); // <== stops on click of body
-            usernames = document.getElementsByClassName("cmty-friend-username");
-            pictures = document.getElementsByClassName("cmty-avatar");
-            statuses = document.getElementsByClassName("cmty-friend-message");
-        }
+    function data(){
+        document.body.addEventListener("click", function f(){clearInterval(scroll)}); // <== stops on click of body
+        usernames = document.getElementsByClassName("cmty-friend-username");
+        pictures = document.getElementsByClassName("cmty-avatar");
+        statuses = document.getElementsByClassName("cmty-friend-message");
+    }
     
     function friends(){
         let ni = prompt("What users friends would you like to know about?");
