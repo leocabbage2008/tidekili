@@ -50,6 +50,7 @@
         if (document.confirm("Click ok to see info about your friends, else, just press cancel.")){// <== No links in alert boxes
             window.open("aops.com/friends", "_blank");
         
-        //code to load everything
+        if (window.location.href == "https://artofproblemsolving.com/friends"){
+            document.getElementsByClassName("main-content").innerHTML = 
     }
 })();
