@@ -46,7 +46,9 @@
         let ni = prompt("What users friends would you like to know about?");
         window.open("https://artofproblemsolving.com/community/user/"+ni);
         let scroll = setInterval(function timer() {
-        // scroll down all the way blah blah blah
+            x=document.body.scrollTop
+            window.scrollTo(0, document.body.scrollHeight)
+            if (x==document.body.scrollTop){clearInterval(scroll)}
         }
         }, 20);
         if (confirm("Click ok to see info about your friends, else, just press cancel.")){// <== No links in alert boxes
