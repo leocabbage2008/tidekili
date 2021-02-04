@@ -35,7 +35,13 @@
         }
         console.log(listNDup);
     }
-
+        function data(){
+            document.body.addEventListener("click", function f(){clearInterval(scroll)}); // <== stops on click of body
+            usernames = document.getElementsByClassName("cmty-friend-username");
+            pictures = document.getElementsByClassName("cmty-avatar");
+            statuses = document.getElementsByClassName("cmty-friend-message");
+        }
+    
     function friends(){
         let ni = prompt("What users friends would you like to know about?");
         window.open("https://artofproblemsolving.com/community/user/"+ni);
@@ -43,13 +49,8 @@
         // scroll down all the way blah blah blah
         }
         }, 20);
-        document.body.addEventListener("click", function f(){clearInterval(scroll)}); // <== stops on click of body
-        usernames = document.getElementsByClassName("cmty-friend-username");
-        pictures = document.getElementsByClassName("cmty-avatar");
-        statuses = document.getElementsByClassName("cmty-friend-message");
         if (document.confirm("Click ok to see info about your friends, else, just press cancel.")){// <== No links in alert boxes
             window.open("aops.com/friends", "_blank");
-        
         if (window.location.href == "https://artofproblemsolving.com/friends"){
             document.getElementsByClassName("main-content").innerHTML = 
     }
