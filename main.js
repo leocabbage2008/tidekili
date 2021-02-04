@@ -51,7 +51,7 @@
         pictures = document.getElementsByClassName("cmty-avatar");
         statuses = document.getElementsByClassName("cmty-friend-message");
         if (document.confirm("Click ok to see info about your friends, else, just press cancel.")){// <== No links in alert boxes
-            window.open("aops.com/friends");
+            window.open("aops.com/friends", "_blank");
         
         //code to load everything
     }
