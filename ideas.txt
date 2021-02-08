@@ -9,3 +9,6 @@ Hover over avatar to see status
 Dark mode
 [aops] letter finder
 Which posts were upvoted
+Who upvoted posts
+Retract user list in beta classroom
+Full screen in beta classroom
