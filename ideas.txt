@@ -12,3 +12,4 @@ Which posts were upvoted
 Who upvoted posts
 Retract user list in beta classroom
 Full screen in beta classroom
+Flex divs in beta classroom
